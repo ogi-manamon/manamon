@@ -1,1 +1,1 @@
-{"name":"まなモン Phase 2","short_name":"まなモン","description":"ふりがな付き3択クイズとモンスター育成","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#fff2f8","theme_color":"#dc6f9e","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{"name":"まなモン Phase 3","short_name":"まなモン","description":"ふりがな付き3択・4択クイズ、自動復習とモンスター育成","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#fff2f8","theme_color":"#dc6f9e","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
