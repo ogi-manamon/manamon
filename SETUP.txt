@@ -1,0 +1,14 @@
+まなモン Phase 5 — Firebase 初期設定
+
+1. https://console.firebase.google.com/ でプロジェクト作成（無料枠 Spark を選択）。
+2. Authentication > Sign-in method で「メール/パスワード」を有効化。
+3. Authentication > Settings > Authorized domains で ogi-manamon.github.io を許可（必要な場合）。
+4. Firestore Database を作成し、firestore.rules の内容を Rules タブへ貼り付けて公開。
+5. プロジェクトの設定 > マイアプリ > ウェブアプリを追加し、firebaseConfig の値を firebase-config.js にコピー。
+6. index.html, questions.js, icon.svg, manifest.webmanifest, sw.js, cloud.js, firebase-config.js をGitHubリポジトリのルートへアップロード。
+7. iPhoneとAndroidで同じ保護者メールアドレス・パスワードでログイン。
+
+注意：この簡易版は両端末が同じ保護者アカウントを利用します。子どもの端末から保護者画面にもアクセスできるため、厳密な権限分離は未実装です。
+注意：初回接続時、クラウドに既存データがあれば端末内のデータより優先されます。端末内のCSVを事前に書き出してバックアップしてください。
+注意：複数端末で同時に学習・編集すると後から保存した記録で上書きされることがあります。Phase 5は試験運用版です。
+注意：Firebase設定値は公開されます。秘密情報やサービスアカウント鍵は絶対にGitHubへ置かないでください。
